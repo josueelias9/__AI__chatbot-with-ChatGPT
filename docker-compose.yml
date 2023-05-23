@@ -1,0 +1,28 @@
+# mantener un container abierto desde docker compose:
+# https://stackoverflow.com/questions/36249744/interactive-shell-using-docker-compose
+version: "3.9"
+
+services:
+
+  myPython:
+    build: ./backend
+    image: chatbot-image
+    container_name: chatbot-container
+    #stdin_open: true # docker run -i
+    #tty: true        # docker run -t
+    ports:
+      - 8000:8000
+    #volumes:
+    #  - ./backend:/usr/src/chatbot
+  
+  frontend:
+    build: ./frontend
+    image: frontend-image
+    container_name: frontend-container
+    #stdin_open: true
+    #tty: true
+    ports:
+      - 3000:3000
+    #volumes:
+    #  - ./frontend:/usr/src/frontend
+    

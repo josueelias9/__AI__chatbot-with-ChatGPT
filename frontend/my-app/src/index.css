@@ -1,0 +1,8 @@
+#cont {
+  background-color: #ffffff;
+  padding: 10px;
+  margin-top: 10px;
+  box-shadow: 1px 1px 5px rgb(147, 171, 255);
+  border-radius: 10px;
+  overflow: hidden;
+}
