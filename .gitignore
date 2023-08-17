@@ -1,1 +1,5 @@
 node_modules
+backend3/python/project/app/__pycache__
+backend3/python/project/project/__pycache__
+backend3/python/venv
+backend3/python/project/db.sqlite3

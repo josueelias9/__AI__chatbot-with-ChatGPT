@@ -22,3 +22,8 @@ http://0.0.0.0:3000/chatbot
 
 # Observation
 - In order to get acurate answer the temperature of the LLM was set to 0.
+
+
+
+my_key
+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
