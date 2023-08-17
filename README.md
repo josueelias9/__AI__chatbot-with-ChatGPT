@@ -25,5 +25,3 @@ http://0.0.0.0:3000/chatbot
 
 
 
-my_key
-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
